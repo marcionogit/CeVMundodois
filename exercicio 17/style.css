@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #0367A6, #F2F2F2);
+    /*background-image: linear-gradiente(to right ou to left) = faz aquele efeito de degradê */
+}
+main{
+    background-color: white;
+    /*background-color = pinta a cor do fundo de acordo com o parâmetro*/
+    border-radius: 20px;
+    /*border-radius = Faz uma curvinha nas pontas do background*/
+    box-shadow: 10px 10px 10px black;
+    /*box-shadow = Faz sombra em volta do background[três parâmetros(lados, pra baixo, esfumaçar, cor)]*/
+    width: 600px;
+    /*width = É a largura background*/
+    padding: 10px;
+    /*padding = É a margem/ bordas*/
+    margin: auto;
+    /*margin: auto = Centraliza o background no meio da tela*/
+}
+h1{
+    color: #0367A6;
+    text-align: center;
+    /*text-align: center = alinha o texto no centro da tela*/
+    text-shadow: 2px 2px 2px black;
+    /*text-shadow: px  px  px cor = Faz sombras nas letras da tag( lados, baixo, esfumaçar, cor)*/
+}
+h2{
+color: black;
+}
+p{
+    text-align: justify;
+}
