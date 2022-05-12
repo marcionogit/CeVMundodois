@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    text-decoration: underline black;
+}
